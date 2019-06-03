@@ -38,8 +38,10 @@ INSTALLED_APPS = [
 
     'user',
     'university',
+    'category',
 
     'rest_framework',
+    'mptt',
 ]
 
 MIDDLEWARE = [

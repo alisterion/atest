@@ -1,6 +1,8 @@
 from django.conf import settings
 from django.db import models
 
+__all__ = ("University",)
+
 
 class University(models.Model):
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
